@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-//Класс Util должен содержать логику настройки соединения с базой данных
+//Класс Util должен содержать логику настройки соединения с базой данных 1
 public class Util {
 
     private static final String URL = "jdbc:mysql://localhost:3306/myBase";
