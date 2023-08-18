@@ -16,7 +16,7 @@ public class UserDaoJDBCImpl implements UserDao {
     public UserDaoJDBCImpl() {
     }
 
-    // Создание таблицы для User(ов) – не должно приводить к исключению, если такая таблица уже существует
+    // Создание таблицы для User(ов) – не должно приводить к исключению, если такая таблица уже существуе
     public void createUsersTable() {
         try (Statement statement = Util.getConnection().createStatement()) {
             statement.executeUpdate("CREATE TABLE IF NOT EXISTS " + TABLENAME +
